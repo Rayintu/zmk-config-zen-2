@@ -125,9 +125,9 @@
 // |        | BTCLR  |  BT1   |  BT2   |  BT3  | BT4 | | BT5 |         |          |      |        | cpslk |
 //                            	   |     |     | DLT | |    |     |    |
                         bindings = <
-   &kp  C_PP  &kp C_VOL_DN &kp C_VOL_UP  &kp C_PREV   &kp C_NEXT   &none         &none         &kp C_BRIGHTNESS_DEC &kp C_BRIGHTNESS_INC &none   &none 	   &none
-   &trans     &kp HOME     &kp PG_DN     &kp PG_UP    &kp END      &none         &none         &kp LEFT 		    &kp DOWN             &kp UP  &kp RIGHT &kp KP_NUMLOCK
-   &trans     &BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3  &bt BT_SEL 4  &trans   			&trans   			 &trans  &kp UNDER &kp CAPS
+   &kp  C_PP  &kp C_VOL_DN    &kp C_VOL_UP  &kp C_PREV   &kp C_NEXT   &none         &none         &kp C_BRIGHTNESS_DEC &kp C_BRIGHTNESS_INC &none   &none 	   &none
+   &trans     &kp HOME     	  &kp PG_DN     &kp PG_UP    &kp END      &none         &none         &kp LEFT 		    &kp DOWN             &kp UP  &kp RIGHT &kp KP_NUMLOCK
+   &trans     &bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3  &bt BT_SEL 4  &trans   			&trans   			 &trans  &kp UNDER &kp CAPS
                           				&trans       &trans       &kp DELETE     &trans   &trans   &trans
                         >;
                 };
